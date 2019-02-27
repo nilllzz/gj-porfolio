@@ -1,0 +1,195 @@
+
+@media only screen and (max-width: 600px) {
+    .main-menu {
+        visibility: collapse !important;
+    }
+    .main-menu-collapsed {
+        visibility: visible !important;
+    }
+}
+
+body {
+    background-color: #f5f3ef;
+    /* system font stack */
+    font-family: -apple-system, BlinkMacSystemFont, Ubuntu, Segoe UI, Roboto, Oxygen, Cantarell,Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    /* max width for content is 1000px, left/right creates margins after that */
+    width: 100%;
+    max-width: 1000px;
+}
+
+.heading-text {
+    color: #423532;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+}
+
+.heading-1 {
+    font-size: 80px;
+}
+
+.heading-2 {
+    font-size: 70px;
+}
+
+.heading-3 {
+    font-size: 60px;
+}
+
+.heading-stripe-1 {
+    height: 11px;
+    background-color: #5e9ace;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.heading-stripe-2 {
+    height: 11px;
+    background-color: #c8635f;
+    margin-top: -22px;
+    margin-left: 98px;
+}
+
+.heading-stripe-3 {
+    height: 11px;
+    background-color: #e0a15d;
+    margin-top: -22px;
+    margin-left: 117px;
+}
+
+.content-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.content {
+    margin-top: 40px;
+    width: 95%;
+}
+
+h1 {
+    /* font-family: 'Times New Roman', Times, serif; */
+    color: #423532;
+    font-weight: normal;
+}
+
+h2 {
+    /* font-family: 'Times New Roman', Times, serif; */
+    color: #423532;
+    font-weight: normal;
+}
+
+h3 {
+    margin: 0px;
+    color: #423532;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #423532;
+}
+
+a {
+    text-decoration: none;
+    color: #423532;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #83736f;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-entry {
+    width: 300px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-img {
+    border-radius: 10px;
+    width: 300px;
+    height: 170px;
+    border-color: #423532;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+}
+
+.tech-entry {
+    margin-bottom: 16px;
+    width: 150px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: #423532;
+    border-radius: 6px;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    color: #423532;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.tech-entry:hover {
+    background-color: #423532;
+    color: white;
+}
+
+.tech-icon {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.tech-title {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.footer-stripe-1 {
+    height: 11px;
+    background-color: #5e9ace;
+}
+
+.footer-stripe-2 {
+    height: 11px;
+    background-color: #c8635f;
+}
+
+.footer-stripe-3 {
+    height: 11px;
+    background-color: #e0a15d;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #423532;
+}
